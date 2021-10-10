@@ -56,3 +56,8 @@ End amount: using the compound interest formula(amoutn *pow((1 + (roi/100)),n[nu
 ie, c3 * (1+c2)^c1
 
 Always these using the formula using the address of the cells [Imporatant note]
+
+
+Future Plan for Excel Learning:
+Try to learn from the following playlist
+https://youtube.com/playlist?list=PLWPirh4EWFpEpO6NjjWLbKSCb-wx3hMql
