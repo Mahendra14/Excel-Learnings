@@ -4,3 +4,55 @@ Source: Youtube Ankur warikoo Excel for beginners
 (link: https://youtu.be/fcbB0nkDik8)
 Method: First I will go through the whole video and then will try to write notes in this file and later implement those in the excel attached. 
 
+Excel is very imp to view our whole life as in numbers.
+
+Template:
+There are a lot of templates already in the excel so try to use them first hand.
+(To use a template: search for the template click on it and then create to use them first hand.)
+
+From blank worksheet:
+Entire thing is called workbook. we can create sheets any number of them in the south left corner. Each box is called as cell in an excel.
+Every cell has an address/identiy for ex: G8 ([column letter][row number])
+address is one of themost powerful from of excel like if there are row of numbers.
+To add in a cell: we can do like => =F6+F7+F8 
+
+There is also a short way using formula in excel.
+as => = SUM(F4:Q4) => you can drag it to go to a specific cell too.
+(This is useful as irrespecive of numbers its being added using the address)
+
+Example of budget:
+column names: Number, Item Name, Amount, Category?
+
+Under Number to get serial numbers instead of writing it along we can do:
+intialise with a single number for a cell then select the cell we have to reciprocate or increase accordingly. Then = in a cell write like A2 + 1 and then copy that and select the whole column and paste..thats it the formula is reciprocated everywhere.
+there is another way to do it: Take a small square box in the corner of cell with formula drag using that small one then the formula will be fasted.
+
+To insert a new column we can just right click and insert entire column.
+Lets say Date :
+ we can write in a single column as :1 Sep(Excel will take this as date format)
+
+ then fill other columns and in case of Category us as three catergories: need,want,investment
+
+Now lets say to add all the money spent we make use of cell range:
+=sum(D2:D27) [for this u can just take a cell and drag it to the specific cell using shift to get it done directly]
+Add a new category Annual.
+For rent annually. = D2*12 for doin it every cell we can just drag the small square one to make annual ones for everything. Similarly to sum all the annual ones we can just copy the cell for the total sum and then paste it in the particular cell to showcase the outcome accordingly. Excel is smart enough to know what has to be done.(that is to reciprocate using the cell above instead of the ones that were supposed to be used)
+
+Now to get sum of all the needs : smart way
+Thing to note is all the sheets are interconnected so we can just make use of all the things accordingly. irrespecive of the sheet thats being used.
+ in a cell =sumif(range,criterian,what had to be done) 
+ Range: go to sheet 1 just drag the whole category (we can just select the cell number such as E and that it)
+ Criterian: "Need" - inverted commas as its a string
+ where sum has to be done: select the particular column 
+ (this will make sure to sum all the numbers from the column selected where it preceeds a word "Need")
+
+
+Then we dive into compound interest ones:
+like going through row wise :
+Year of investment: 10
+Rate of return : 12%
+Amount Invested: 10000
+End amount: using the compound interest formula(amoutn *pow((1 + (roi/100)),n[number of years])) // 
+ie, c3 * (1+c2)^c1
+
+Always these using the formula using the address of the cells [Imporatant note]
