@@ -1,4 +1,6 @@
 Time: 10:25 AM
 Date : 10/10/2021
 Source: Youtube Ankur warikoo Excel for beginners
+(link: https://youtu.be/fcbB0nkDik8)
 Method: First I will go through the whole video and then will try to write notes in this file and later implement those in the excel attached. 
+
