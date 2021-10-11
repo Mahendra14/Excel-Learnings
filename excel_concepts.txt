@@ -6,7 +6,7 @@ Method: First I will go through the whole video and then will try to write notes
 
 Excel is very imp to view our whole life as in numbers.
 
-Template:
+Template:[Imporatant]
 There are a lot of templates already in the excel so try to use them first hand.
 (To use a template: search for the template click on it and then create to use them first hand.)
 
@@ -24,8 +24,8 @@ Example of budget:
 column names: Number, Item Name, Amount, Category?
 
 Under Number to get serial numbers instead of writing it along we can do:
-intialise with a single number for a cell then select the cell we have to reciprocate or increase accordingly. Then = in a cell write like A2 + 1 and then copy that and select the whole column and paste..thats it the formula is reciprocated everywhere.
-there is another way to do it: Take a small square box in the corner of cell with formula drag using that small one then the formula will be fasted.
+intialise with a single number for a cell then select the cell we have to reciprocate or increase accordingly. Then = in a cell write like A2 + 1 and then copy that and select the whole column and paste..thats it the formula is reciprocated everywhere. [Done]
+there is another way to do it: Take a small square box in the corner of cell with formula drag using that small one then the formula will be pasted.
 
 To insert a new column we can just right click and insert entire column.
 Lets say Date :
